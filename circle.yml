@@ -1,0 +1,22 @@
+machine:
+  python:
+    version: 2.7.6
+
+dependencies:
+  pre:
+    - pip install awsebcli
+    - printenv
+
+database:
+  override:
+    - exit 0
+
+test:
+  override:
+    - exit 0
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - eb deploy rails-beanstalk
