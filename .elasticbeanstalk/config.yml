@@ -2,7 +2,7 @@ branch-defaults:
   master:
     environment: null
 global:
-  application_name: dev-timegeek
+  application_name: rails-beanstalk
   branch: null
   default_ec2_keyname: null
   default_platform: Ruby 2.3 (Puma)
