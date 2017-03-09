@@ -19,4 +19,4 @@ deployment:
   production:
     branch: master
     commands:
-      - eb deploy rails-beanstalk
+      - eb deploy
