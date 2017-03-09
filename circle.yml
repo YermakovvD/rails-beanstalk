@@ -19,4 +19,4 @@ deployment:
   production:
     branch: master
     commands:
-      - eb deploy
+      eb deploy --profile default
